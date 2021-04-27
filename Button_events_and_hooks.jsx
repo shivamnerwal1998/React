@@ -4,7 +4,7 @@
 
 
 import React,{useState} from "react" ;
-import ReactDOM from "reactDOM" ; 
+import ReactDOM from "react-dom" ; 
 
 const App= ()=>{
 
@@ -40,6 +40,6 @@ const App= ()=>{
          </div>
     ) ; 
 }
-ReactDom.render(
+ReactDOM.render(
     <App/>
 ,document.getElementById("root")) ;  

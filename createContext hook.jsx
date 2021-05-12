@@ -58,3 +58,18 @@ try to focus on that
 	
 
 */ 
+/** USing useContext :-
+	import React,{useContext} from "react";
+import { FirstName } from "./App.jsx";
+import { LastName } from "./Comp1";
+
+const Comp3 = () => {
+const Name = useContext(FirstName);
+const LName = useContext(LastName);
+const elem = <h1> Hello {LName}{Name} </h1>
+return elem  ;  
+
+   
+};
+export default Comp3;
+*/

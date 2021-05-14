@@ -24,4 +24,36 @@ export default Com;
     path
     exact path
     BrowserRouter 
+   
 */
+
+
+/* 
+    #create two seprate components one is Menue and one is About
+    
+    import React from "react";
+import {Link} from "react-router-dom" ;
+const Menue = ()=>{
+    const elem = <>
+        <h1>Link</h1>
+        <Link to="/about"> About </Link>&nbsp; &nbsp;
+        <Link to="/contact"> Contact </Link>&nbsp; &nbsp;
+        <Link to="Menue"> Menue </Link>&nbsp; &nbsp;
+        <br/>
+        <h2>Anchor</h2>
+        <a href="/about"> About </a>&nbsp; &nbsp;
+        <a href="/contact"> Contact  </a>&nbsp; &nbsp;
+        <a href="/Menue"> Menue  </a>&nbsp; &nbsp;
+
+
+    </>
+    return elem ; 
+}
+export default Menue ; 
+
+/*
+    carefully use the link tag 
+*/
+    
+    
+  */

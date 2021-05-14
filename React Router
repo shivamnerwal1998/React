@@ -1,0 +1,27 @@
+import React from "react";
+import About from "./About";
+import Contact from "./Contact";
+import { Route, Switch } from "react-router-dom";
+
+const Com = () => {
+    const elem = <>
+        <Switch>
+            <Route exact path='/About' component={About} />
+            <Route path='/contact' component={Contact} />
+        </Switch>
+    </>
+    return elem;
+}
+export default Com;
+
+
+
+
+/*
+    things to learn :
+    Switch
+    Route 
+    path
+    exact path
+    BrowserRouter 
+*/

@@ -25,3 +25,11 @@ function display()
 }
 setInterval(display,1000);  /* clock has its own timer and updates itself in every second  */
 // display function is called every second
+
+/*
+  setInterval(()=>{
+    ReactDOM.render(
+    {/* preferred */}
+    ,document.getElementById("root")) ; 
+  },1000)
+*/

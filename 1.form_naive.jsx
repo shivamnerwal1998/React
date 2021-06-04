@@ -110,7 +110,6 @@ const Form =()=>{
     return Data ;  
 }
 export default Form ; 
-/*
  css
  body{
   background-color: #f2f2f2;
@@ -148,4 +147,4 @@ button:hover{
   background-color:#45a049 ; 
 }
 
-*/
+

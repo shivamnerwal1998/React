@@ -9,7 +9,7 @@ const Form =()=>{
        Email : "" , 
        Contact : "" 
    }); 
-
+/* to be used in form  */
     
    const inputData = (event)=> {
 
